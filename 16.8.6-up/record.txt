@@ -1,0 +1,12 @@
+1、使用 create-react-app 初始化项目
+2、分离 package.json 中依赖，按照dependencies和devDependencies字段
+3、添加src下的功能目录
+4、添加eslint代码校验,
+5、添加自定义代理请求地址、自定义端口
+6、在start.js脚本中添加对port、host引用
+7、
+
+
+注意：
+  1、安装使用于生成环境的node包时，要确定版本号，并且依赖应该在dependencies字段内
+  2、目前antd采用全量加载，后期优化成按需加载
